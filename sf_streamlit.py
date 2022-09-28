@@ -71,5 +71,5 @@ AND NETWORK_TYPE_DESC = 'Postpaid Mobile'
 '''
 
 df = pd.read_sql(sql,ctx_ana )
-print(df.MONTH_SQN.head(1))
+st.dataframe(df)
 #trainingbase
