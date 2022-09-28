@@ -3,11 +3,6 @@ print('hi')
 
 #import all necessary libraries
 import pandas as pd
-from pyspark.sql import SparkSession
-from pyspark import SparkConf
-from pyspark.sql.functions import udf, col, current_date, date_format, lit, explode, split, broadcast, size
-import pyspark.sql.functions as f
-from pyspark.sql.types import *
 import sys, pickle
 from datetime import datetime, date, timedelta 
 from dateutil.relativedelta import relativedelta
